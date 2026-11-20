@@ -1,78 +1,86 @@
-# Carola Guerrero Luco × PONTIFIC
+<div align="center">
 
-Portafolio creativo de doble página + laboratorio de startup PONTIFIC. Dos páginas conectadas, frontend original, responsive y sin backend obligatorio.
+<img src="./public/assets/carola.jpg" alt="Fotografía profesional de Carola Guerrero Luco" width="220" />
 
-## Qué funciona realmente
+# Hola, soy Carola Guerrero Luco 
 
-- `index.html`: cuaderno de doble página con fotografía; cuatro proyectos **ejecutables dentro del mismo portafolio** mediante pestañas: flujo de agente, ETL de datos ilustrativos, automatización RPA simulada y gráfico SPC sintético interactivo.
-- `pontific.html`: identidad, misión, visión y valores de PONTIFIC; constructor de blueprint de agente con configuración, cuatro etapas, vistas JSON/TypeScript y exportación `.ts`.
-- Idiomas español, inglés y portugués en las dos páginas; GitHub público consultado mediante la API pública de GitHub y filtrado por lenguaje.
-- Animaciones, estados del flujo, elementos interactivos y estilos adaptables a pantallas pequeñas.
+### AI Engineer · Python Backend Developer · Data & Intelligent Automation
 
-**Transparencia:** los laboratorios de agentes, RPA, ETL y SPC utilizan datos o procesos ilustrativos en el navegador, no infraestructura de producción. El código `.ts` exportado es un *scaffold* tipado, no un agente conectado a LLM. Para conectar sistemas reales se necesita backend seguro, autenticación e integraciones. Ningún secreto de API se debe poner en el frontend.
+**Transformo datos complejos en soluciones útiles, humanas y escalables.**
 
-## Tipografía y contenido
+[LinkedIn](https://www.linkedin.com/in/muxeres/) · [GitHub](https://github.com/muxeres) · [Contacto](mailto:muxeres@gmail.com)
 
-Paleta solicitada: `#FFF1A8`, `#FFD166`, `#FCA311`, `#F77F00`, `#D62828`.
+</div>
 
-La tipografía manuscrita **Gramofon** está instalada localmente en `public/fonts/Gramofon.woff` y declarada en `public/css/site.css` mediante `@font-face`. Las dos páginas (`index.html` y `pontific.html`) utilizan este CSS compartido; los encabezados y detalles manuscritos usan `--scribble: 'Gramofon', ...`. La fuente se entrega dentro del sitio, sin depender de un CDN.
+---
 
-**Licencia:** el ZIP recibido de webfonts.ffonts.net aporta la fuente y una guía técnica, pero **no incluye una licencia explícita de redistribución o uso comercial**. Antes de publicar un sitio de startup en Render, confirma que tienes autorización para el uso web comercial de Gramofon.
+## La persona detrás del código
 
-Textos basados en el CV y los documentos de perfil/propósito aportados. Los documentos personales (incluyendo histórico académico completo y puntuaciones sensibles) **no se publican** en el sitio. Se muestra solo información profesional relevante. La fotografía se incluye como `public/assets/carola.jpg`.
+Soy una profesional de tecnología enfocada en **inteligencia artificial, ingeniería backend con Python, arquitectura de datos y automatización**. Mi experiencia conecta entornos industriales y financieros con soluciones que buscan ir más allá del dashboard: comprender procesos, integrar información y facilitar mejores decisiones.
 
-## Desarrollo local
+Me gusta construir desde la lógica y desde las personas. La **empatía, el liderazgo y la coherencia** son fortalezas que orientan mi manera de trabajar; el **propósito, la autonomía y la especialización** impulsan mi desarrollo. Para mí, la tecnología tiene más valor cuando amplía las oportunidades de aprendizaje, la capacidad de decisión y la libertad de las personas.
 
-Requisitos: Node.js 20+.
+> No construyo tecnología solo para impresionar. La construyo para transformar.
 
-```bash
-npm install
-npm run build
-npm run dev
-```
+## En qué trabajo
 
-Abre `http://localhost:4173` (puedes navegar a `/pontific.html`). Para revisar el código sin generar los JS: `npm run check`.
+| Inteligencia artificial | Backend e integración | Datos y automatización |
+|:--|:--|:--|
+| Agentes de IA, LLMs, RAG, NLP y machine learning | Python, FastAPI, Flask, Django, APIs REST y Pydantic | SQL, ETL, Pandas, Databricks, Power BI y RPA |
 
-## Despliegue en Render — paso a paso
+Mi enfoque está en combinar **arquitecturas claras, código mantenible, trazabilidad y aplicaciones prácticas** para convertir problemas reales en sistemas comprensibles y evolutivos.
 
-1. Descomprime el ZIP; entra en la carpeta `pontific-final`. **No subas el ZIP directamente como una web**: debes subir el contenido a un repositorio Git.
-2. Crea un repositorio GitHub nuevo. Desde la carpeta del proyecto:
-   ```bash
-   git init
-   git add .
-   git commit -m "Publish PONTIFIC portfolio"
-   git branch -M main
-   git remote add origin https://github.com/TU_USUARIO/TU_REPO.git
-   git push -u origin main
-   ```
-3. En [dashboard.render.com](https://dashboard.render.com), selecciona **New → Static Site**.
-4. Conecta GitHub, selecciona el repositorio y la rama `main`.
-5. Configura **Build Command**: `npm install --no-audit --no-fund && npm run build`.
-6. Configura **Publish Directory**: `public`.
-7. No añadas variables de entorno; el sitio no necesita ninguna. Pulsa **Create Static Site**. Render publicará una URL `https://...onrender.com`.
-8. Comprueba tanto `/` como `/pontific.html`, el selector ES/EN/PT, las cuatro pestañas de proyectos y la descarga `.ts`.
+## Experiencia que da contexto a mi trabajo
 
-El archivo `render.yaml` incluye la configuración equivalente si prefieres **New → Blueprint**.
+**The HEINEKEN Company · Analítica de producción (2026–actualidad)**  
+Trabajo con Python, SQL, Databricks, Power BI y automatización aplicada a procesos y datos industriales.
 
-**Personalización antes de publicar:** verifica enlaces, nombre del usuario GitHub y la información profesional; reemplaza el enlace de contacto si lo deseas. La API pública de GitHub puede imponer un límite de solicitudes o no encontrar un usuario; el frontend enseña mensajes de estado en esos casos.
+**Sicredi · Business Intelligence (2025)**  
+Desarrollo de indicadores, análisis de datos, dashboards y procesos ETL para apoyar decisiones de negocio.
 
-## Estructura
+**Arauco Brasil · Soporte e infraestructura TI (2023–2025)**  
+Experiencia en soporte corporativo, entornos tecnológicos y automatización de procesos.
 
-- `public/index.html`: portafolio
-- `public/pontific.html`: startup PONTIFIC
-- `public/css/site.css`: diseño
-- `src/main.ts`: lógica tipada de UI y demos
-- `public/js/main.js`: JavaScript generado por `npm run build`
-- `public/assets/`: imágenes optimizadas
-- `render.yaml`: Render Static Site
+**Tucadis · Desarrollo RPA con Python (2022–2024)**  
+Automatización de tareas y flujos mediante Python y Rocketbot.
 
-No hay dependencias en tiempo de ejecución del sitio; el único paquete de desarrollo es TypeScript.
+## PONTIFIC — tecnología con propósito
 
+**PONTIFIC** es mi iniciativa de exploración y desarrollo de **agentes de inteligencia artificial centrados en las personas**. Nace de una idea sencilla: los sistemas inteligentes deben ampliar nuestra capacidad de actuar, no convertir sus decisiones en cajas negras.
 
-## Corrección TS6059 en Render
+**Misión.** Diseñar agentes de IA especializados, comprensibles y responsables que conecten datos complejos con acciones útiles, integrando empatía, autonomía y supervisión humana.
 
-El archivo `tsconfig.json` ahora incluye solamente `src/**/*.ts`. Mantén `src/main.ts` dentro de la carpeta `src` y elimina cualquier copia accidental de `main.ts` ubicada en la raíz del repositorio. No selecciones `src` como **Root Directory** en Render; debe quedar vacío.
+**Visión.** Contribuir a una tecnología más accesible, educativa y libre, donde la inteligencia artificial multiplique el conocimiento y favorezca una transformación positiva.
 
-Configuración: **Static Site**, build `npm install && npm run build`, publish directory `public`.
+El laboratorio PONTIFIC de este repositorio permite **explorar visualmente una arquitectura multiagente**, configurar un blueprint y exportar una base de código TypeScript. Es un entorno demostrativo, no una plataforma de agentes conectada a un LLM de producción.
 
-Antes del nuevo deploy, confirma en GitHub que el repositorio contiene `package.json`, `tsconfig.json`, `src/main.ts` y `public/index.html` en las rutas indicadas. Si Render conserva archivos antiguos, usa **Manual Deploy → Clear build cache & deploy**.
+## Proyectos para explorar
+
+Este portafolio reúne cuatro experiencias interactivas que muestran cómo pienso y diseño soluciones:
+
+- **AI Agent Core:** orquestación visual de cuatro etapas — intención, contexto, planificación y auditoría.
+- **Data Pipeline:** transformación, control de calidad e interpretación de datos de ejemplo.
+- **RPA Automation:** representación interactiva de un flujo automatizado de principio a fin.
+- **Industrial Analytics:** señales de proceso y visualización estadística interactiva.
+
+Las experiencias se ejecutan en el navegador con **datos ilustrativos**. Su propósito es mostrar ideas, decisiones de diseño e interacciones, sin presentarlas como sistemas productivos conectados a infraestructura real.
+
+## Formación y aprendizaje continuo
+
+Cuento con formación en **Inteligencia Artificial Aplicada en la PUCPR** (trayectoria académica en curso según la documentación aportada) y **Full Stack Python en Coding Dojo**, además de formación complementaria en analítica de datos, mejora continua y herramientas de desarrollo.
+
+Trabajo en **español, portugués e inglés** y me interesa especialmente el encuentro entre inteligencia artificial aplicada, educación, industria y experiencia humana.
+
+---
+
+<div align="center">
+
+### Ideas con intención. Ingeniería con criterio. Tecnología para personas.
+
+**Carola Guerrero Luco × PONTIFIC**
+
+[Conectemos en LinkedIn](https://www.linkedin.com/in/muxeres/) · [Explora el código](https://github.com/muxeres)
+
+<sub>Este README presenta a la autora. Los detalles del proyecto y la publicación en Render están en <a href="./docs/DESPLIEGUE_RENDER.md">la guía técnica de despliegue</a>.</sub>
+
+</div>
