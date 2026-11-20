@@ -32,7 +32,7 @@ Mi enfoque está en combinar **arquitecturas claras, código mantenible, trazabi
 
 ## Experiencia que da contexto a mi trabajo
 
-**The HEINEKEN Company · Analítica de producción (2026–actualidad)**  
+**The HEINEKEN Company · Analista de producción (2026–actualidad)**  
 Trabajo con Python, SQL, Databricks, Power BI y automatización aplicada a procesos y datos industriales.
 
 **Sicredi · Business Intelligence (2025)**  
@@ -67,7 +67,7 @@ Las experiencias se ejecutan en el navegador con **datos ilustrativos**. Su prop
 
 ## Formación y aprendizaje continuo
 
-Cuento con formación en **Inteligencia Artificial Aplicada en la PUCPR** (trayectoria académica en curso según la documentación aportada) y **Full Stack Python en Coding Dojo**, además de formación complementaria en analítica de datos, mejora continua y herramientas de desarrollo.
+Cuento con formación en **Inteligencia Artificial Aplicada en la PUCPR** y **Full Stack Python en Coding Dojo**, además de formación complementaria en Análisis de datos, mejora continua y herramientas de desarrollo.
 
 Trabajo en **español, portugués e inglés** y me interesa especialmente el encuentro entre inteligencia artificial aplicada, educación, industria y experiencia humana.
 
