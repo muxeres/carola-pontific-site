@@ -2,7 +2,7 @@
 
 <img src="./public/assets/carola.jpg" alt="Fotografía profesional de Carola Guerrero Luco" width="220" />
 
-# Hola, soy Carola Guerrero Luco
+# Hola, soy Carola Guerrero Luco 
 
 ### AI Engineer · Python Backend Developer · Data & Intelligent Automation
 
